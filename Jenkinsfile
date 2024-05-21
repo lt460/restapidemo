@@ -12,7 +12,7 @@ node {
       sh "./gradlew test"
     }
     stage("Deployment") {
-      sh 'nohup ./gradlew bootRun -Dserver.port=8001 &'
+      sh 'nohup ./gradlew bootRun -Dserver.port=8080 &'
     }
   }
 }
