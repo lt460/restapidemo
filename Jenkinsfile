@@ -1,5 +1,5 @@
 node {
-  def dockerHubRepo = 'daumsimac@gmail.com/daumsimac'
+  def dockerHubRepo = 'azizbek_kadyrov@mail.ru/lt460'
   def dockerHubCredentialsId = 'DockerHub_ID'
 
   stage("Clone the project") {
